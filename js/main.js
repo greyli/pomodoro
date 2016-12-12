@@ -93,7 +93,7 @@ $(document).ready(function() {
         if (isPaused === true) {
             isPaused = false;
             resetProgress();
-            vaule = 0;
+            value = 0;
             chip = 100 / workDuration;
             startTimer(workDuration, display);
         }

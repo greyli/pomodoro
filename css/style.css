@@ -35,9 +35,3 @@ footer {
     color: #000;
     font-weight: bold;
 }
-
-@media (max-width: 425px) {
-  .github {
-      display: none;
-  }
-}

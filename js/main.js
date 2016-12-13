@@ -89,7 +89,7 @@ $(document).ready(function() {
         $('#restTime').html(restDuration / 60);
     });
 
-    $('#start').click(function() {
+    $('.start').click(function() {
         if (isPaused === true) {
             isPaused = false;
             resetProgress();
@@ -99,7 +99,7 @@ $(document).ready(function() {
         }
     });
 
-    $('#reset').click(function() {
+    $('.reset').click(function() {
         isPaused = true;
     });
 })

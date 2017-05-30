@@ -101,5 +101,7 @@ $(document).ready(function() {
 
     $('.reset').click(function() {
         isPaused = true;
+        workSignal.css('background', 'orange');
+        restSignal.css('background', '');
     });
 })
